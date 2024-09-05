@@ -1,0 +1,51 @@
+body{
+  font-family: Arial;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+.main{
+  width: 300px;
+  height: 350px;
+  border-radius: 10px;
+}
+#click{
+  padding: 10px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 5px 5px 50px blue;
+  cursor: pointer;
+  margin-top: 200px;
+}
+#div{
+  background-color: white;
+  height: 555px;
+  width: 300px;
+  border-radius: 10px;
+  padding: 10px;
+  padding-bottom: 20px;
+  box-shadow: 5px 5px 20px white;
+  animation: Vanessa 10s forwards;
+  display: none;
+}
+@keyframes Vanessa{
+  from{ opacity:0 }
+  to{ opacity: 1 }
+}
+.main img{
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px;
+}
+.topic p{
+  color:rgb(96,96,96);
+  font-size: 15px;
+}
+.topic{
+  display: flex;
+  justify-content: space-between;
+}
